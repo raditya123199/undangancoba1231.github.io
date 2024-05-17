@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bride & Groom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- Simplycountdown -->
+<link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css"/>
+<script src="countdown/simplyCountdown.min.js"></script>
+
+<!-- icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <!-- Hero -->
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+            <h1>Bride & Groom</h1>
+            <p>Akan melangsungkan resepsi pernikahan dalam :</p>
+            <div class="simply-countdown"></div>
+            <a href="#home" class="btn btn-lg" onclick="enableScroll()">Lihat Undangan</a>
+        </main>
+    </section>
+
+<!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Satria 21</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Satria 21</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#profile">Profile</a>
+              <!-- <a class="nav-link" href="#story">Story</a> -->
+              <!-- <a class="nav-link" href="#gallery">Gallery</a> -->
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+<!-- Home -->
+<section id="home" class="home">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <h2>Acara Pernikahan</h2>
+          <h3>Diselenggarakan pada 31 Desember 2024 </h3>
+          <h3>di Tangerang, Banten</h3>
+          <p>Olehkarna itu dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan kami.</p>
+        </div>
+      </div>
+
+      <div class="row couple">
+
+        <!-- pria -->
+        <div class="col-lg-6"> 
+          <div class="row">
+              <div class="col-8 text-end">
+                <h3>Bride</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis deleniti odio voluptatem sapiente, tempore provident.</p>
+                <p>Putra dari Bpk. <br> dan <br> Ibu </p>
+              </div>
+              <div class="col-4">
+                <!-- ukuran gamabr 400 X 400 px -->
+                <img src="img/pria.jpg" alt="Bride" class="img-responsive rounded-circle">
+              </div>
+            </div>
+          </div>
+          
+          <span class="heart"><i class="bi bi-arrow-through-heart-fill"></i></span>
+
+          <!-- wanita -->
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+              <!-- ukuran gamabr 400 X 400 px -->
+              <img src="img/wanita.jpg" alt="Groom" class="img-responsive rounded-circle">
+            </div>
+              <div class="col-8">
+                <h3>Groom</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis deleniti odio voluptatem sapiente, tempore provident.</p>
+                <p>Putri dari Bpk. <br> dan <br> Ibu </p>
+              </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- info -->
+    <section id="info" class="info">
+      <div class="countainer">
+        
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamt">Alamat : Gedung Pernikahan Graha Angkasa Pura 1 <br>Jl. Merpati 3 No.10, RT.2/RW.10, Gn. Sahari Sel., 
+            Kec. Kemayoran, Kota Jakarta Pusat<br></p>
+            <a href="https://maps.app.goo.gl/FzMxTZ6UM3De9E616" target="_blank" class="btn btn-light sbt-sm my-4">
+              Klik Untuk Membuka Peta</a>
+            <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakah tiba di tujuan
+               namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, Boleh jadi Anda salah jadwal, atau salah alamat</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <!-- Acara Akad -->
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">
+                Akad Nikah
+              </div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-hourglass-split d-block"></i>
+                    <span>08.00 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar-heart d-block"></i>
+                    <span>Minggu, 31 Desember 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan 
+                seluruh proses.
+              </div>
+            </div>
+          </div>
+          <!-- Acara Resepsi -->
+          <div class="col-md-5 col-10 ">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-hourglass-split d-block"></i>
+                    <span>11.00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar-heart d-block"></i>
+                    <span>Minggu, 31 Desember 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan 
+                seluruh proses.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- konfirmasi kehadiran -->
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>Isi form dibawah ini untuk melakukan konfirmasi kehadiran</p>
+          </div>
+        </div>
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+        method="POST" 
+        action="https://script.google.com/macros/s/AKfycbzopI0zw0n6SRsFoWq6bh2f6u3__lNB1YLrYOe_qdYy9XezbTGJzgmMRwUwjEQ8uV8/exec" 
+        id="my-form">
+
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Jumlah</label>
+              <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5"
+              length="1" value="1">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Konfirmasi</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>Pilih Salah Satu</option>
+                <option value="hadir">hadir</option>
+                <option value="tidak hadir">Tidak hadir</option>
+              </select>
+            </div>
+          </div>
+            <div class="col-12" style="margin-top: 35px;" >
+              <button class="btn btn-primary">Kirim</button>
+            </div>
+      </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="gifts" class="gifts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Ungkapan Tanda Kasih</span>
+            <h2>Kirim Hadiah</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, dolorem!</p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="fw-bold">BCA</div>
+                123456789 - Groom
+              </li>
+              <li class="list-group-item">
+                <div class="fw-bold">BANKRUT</div>
+                123456789 - Groom
+              </li>
+              <li class="list-group-item">
+                <div class="fw-bold">Barcode</div>
+                <img src="img/" alt="" class="img-thumbnail" width="150">
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2024 Satria21. All Rights Reserved.</small>
+            <small class="block">Design By <a href="">@Satria21</a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous">
+    </script>
+
+<!-- script countdown -->
+    <script>
+      simplyCountdown('.simply-countdown', {
+            year: 2024, // required (artinya harus di isi)
+            month: 12, // required
+            day: 31, // required
+            hours: 8, // Default is 0 [0-23] integer (untuk jam mulai akad / resepsi / acara)
+            words: { //words displayed into the countdown 
+                days: { singular: 'hari', plural: 'hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'menit', plural: 'menit' },
+                seconds: { singular: 'detik', plural: 'detik' }
+            },
+      });
+  </script>
+
+<script>
+  const rootElement = document.querySelector(":root");
+  function disableScroll() {
+    
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+    window.onscroll = function() {
+      window.scrollTo(scrollLeft, scrollTop);
+    };
+
+    rootElement.style.scrollBehavior = 'auto';
+  } 
+
+  function enableScroll(){
+    window.onscroll = function() {}
+    rootElement.style.scrollBehavior = 'smoot';
+    localStorage.setItem('opened', 'true');
+  }
+
+  if(!localStorage.getItem('opened')) {
+    disableScroll();
+  }
+</script>
+
+<!-- google sheet -->
+<script>
+  window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("Konfirmasi kehadiran berhasil dikirim!");
+    })
+  });
+});
+
+</script>
+  </body>
+</html>
